@@ -50,10 +50,17 @@ export default function UserRoutes(app) {
     currentUser = await dao.findUserByCredentials(username, password);
     res.json(currentUser);
   };
+
   const profile = async (req, res) => {
     res.json(currentUser);
   };
-  const signout = (req, res) => {};
+
+  const signout = (req, res) => {
+    currentUser = null;
+    res.sendStatus(200);
+  };
+
+  app.post("/api/users/signout", signout);
   app.post("/api/users", createUser);
   app.get("/api/users", findAllUsers);
   app.get("/api/users/:userId", findUserById);
