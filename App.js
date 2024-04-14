@@ -16,11 +16,6 @@ const DB_NAME = process.env.DB_NAME;
 mongoose.connect(CONNECTION_STRING, { dbName: DB_NAME });
 
 const app = express();
-const sessionOptions = {
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-};
 
 app.use(
   cors({
@@ -28,6 +23,12 @@ app.use(
     origin: process.env.FRONTEND_URL,
   }),
 );
+
+const sessionOptions = {
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+};
 
 if (process.env.NODE_ENV !== "development") {
   sessionOptions.proxy = true;
