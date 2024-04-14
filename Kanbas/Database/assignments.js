@@ -2,7 +2,7 @@ export default [
   {
     _id: "A101",
     title: "Propulsion Assignment",
-    course: "RS101",
+    course: "661b50b5dfa61d2e2ca5777c",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -12,7 +12,7 @@ export default [
   {
     _id: "A102",
     title: "Combustion Analysis",
-    course: "RS101",
+    course: "661b50b5dfa61d2e2ca5777c",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -22,7 +22,7 @@ export default [
   {
     _id: "A103",
     title: "Nozzle Design Project",
-    course: "RS101",
+    course: "661b50b5dfa61d2e2ca5777c",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -32,7 +32,7 @@ export default [
   {
     _id: "A201",
     title: "Aerodynamics Quiz",
-    course: "RS102",
+    course: "661b50b5dfa61d2e2ca5777d",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -42,7 +42,7 @@ export default [
   {
     _id: "A202",
     title: "Flow Analysis",
-    course: "RS102",
+    course: "661b50b5dfa61d2e2ca5777d",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -52,7 +52,7 @@ export default [
   {
     _id: "A203",
     title: "Heating Analysis",
-    course: "RS102",
+    course: "661b50b5dfa61d2e2ca5777d",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -62,7 +62,7 @@ export default [
   {
     _id: "A301",
     title: "Structural Design Task",
-    course: "RS103",
+    course: "661b50b5dfa61d2e2ca5777e",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -72,7 +72,7 @@ export default [
   {
     _id: "A302",
     title: "Orbital Calculations",
-    course: "RS103",
+    course: "661b50b5dfa61d2e2ca5777e",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
@@ -82,7 +82,7 @@ export default [
   {
     _id: "A303",
     title: "Systems Engineering Exam",
-    course: "RS103",
+    course: "661b50b5dfa61d2e2ca5777e",
     description: "Description here",
     dueDate: "2024-03-10",
     availableFromDate: "2024-01-10",
