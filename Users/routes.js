@@ -50,10 +50,6 @@ export default function UserRoutes(app) {
 
   const signin = async (req, res) => {
     const { username, password } = req.body;
-    if (!username || !password) {
-      res.sendStatus(400).json({ message: "Missing username or password" });
-      return;
-    }
     const currentUser = await dao.findUserByCredentials(username, password);
     if (currentUser) {
       req.session["currentUser"] = currentUser;
