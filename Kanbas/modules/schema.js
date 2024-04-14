@@ -7,8 +7,8 @@ const lessonSchema = new mongoose.Schema({
 
 const moduleSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
-    description: { type: String, required: true },
+    name: { type: String, default: "New Module", required: true },
+    description: { type: String, default: "New Module Description", required: true },
     course: { type: String, required: true },
     lessons: { type: [lessonSchema], required: false, default: [] },
   },
